@@ -12,14 +12,15 @@ h1{
 h2{
     font-size:120;
     }
-.guarantee{
-    color: rgba(36, 32, 32, 0.623);
+#guarantee{
+    color: rgba(49, 43, 43, 0.521);
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 105%;
     line-height: 1.6em;
     border: 4px dashed white;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 20px;
    
     background-color: rgba(94, 160, 245, 0.411);
     padding: 15px 5px 15px 85px;
@@ -29,3 +30,9 @@ h2{
     background-position: top left;
     background-repeat: no-repeat;
     }
+#footer{
+    text-align: center;
+    color: #007e7e;
+    font-size: 80%;
+    margin-top: 20px;
+}
