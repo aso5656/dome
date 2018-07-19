@@ -30,9 +30,48 @@ h2{
     background-position: top left;
     background-repeat: no-repeat;
     }
+
+    #elixirs {
+    float: right;
+    width: 200px;/*content area only */
+    border:2px solid darkcyan;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;/*including images */
+    line-height: 1;/*1 time line height of own font size */
+    background: url(images/cocktail.gif) repeat-x;
+    padding: 40px 10px;
+        /* entire width = width+padding+margin+line width */
+
+
+}
+ #elixirs h2{
+     color: black;
+ }
+ #elixirs h3{
+     color: #d12c47;
+ }
 #footer{
     text-align: center;
     color: #007e7e;
     font-size: 80%;
     margin-top: 20px;
+    
+}
+.cd{
+    font-style: italic;
+}
+.singer{
+    font-weight: bold;
+}
+
+#elixirs a:link{
+    color: darkgoldenrod;
+}
+#elixirs a:visited{
+    color: rgb(153, 51, 4);
+}
+#elixirs a:hover{
+    color: rgb(71, 240, 56);
+    background: red;
 }
