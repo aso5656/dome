@@ -1,0 +1,31 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    line-height: 1.6em;
+    }
+h1, h2 {
+    color: #007e7e;
+    }
+h1{
+    font-size:190%;
+    }
+h2{
+    font-size:120;
+    }
+.guarantee{
+    color: rgba(49, 43, 43, 0.521);
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 105%;
+    line-height: 1.6em;
+    border: 4px dashed white;
+    border-radius: 10px;
+   
+    background-color: rgba(94, 160, 245, 0.411);
+    padding: 15px 5px 15px 85px;
+    margin: 35px 270px 35px 35px;
+    
+    background-image: url(images/background.gif);
+    background-position: top left;
+    background-repeat: no-repeat;
+    }
